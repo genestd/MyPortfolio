@@ -1,0 +1,63 @@
+body{
+  color:#ffffff;
+  background: #050505; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #050505, #222222); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #050505, #222222); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #050505, #222222); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom left, #c5c5c5, #aaaaaa) no-repeat; /* Standard syntax */
+  padding:110px;
+  /* For Static Background Image 
+    background: url("http://i.imgur.com/MoW79fC.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.navbar{
+  border-radius:0;
+  border: none;
+  background-color: #004488;
+  margin: 26px 0 0 0 ;
+}
+#myNavbar{
+  text-align: right;
+  right:25px;
+  position:absolute;
+  background-color: #004488;
+}
+.logo{
+  background-color: #002244;
+  height:100%;
+  width:100%;
+  border:2px solid #000;
+  border-radius:50%;
+  border-color: #ffffff;
+  color:#ffffff;
+  text-align: center;
+  font: 48px Montserrat, sans-serif;
+  padding:11px;
+  position:absolute;
+  left:0;
+  top:50%;
+  margin-top: -47px;
+}
+.logo1{
+  background-color: #ffffff;
+  width:110px;
+  height:110px;
+  border:8px solid #000;
+  border-radius:50%;
+  border-color: #002244;
+  color:#ffffff;
+  text-align: center;
+  font: 48px Montserrat, sans-serif;
+  padding:8px;
+  position:absolute;
+  top:-25px;
+  margin: 0;
+}
+.about{
+  color:#000000;
+  padding:0;
+}
+
