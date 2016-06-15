@@ -103,10 +103,12 @@ h1{
   left: 10px;
   margin: 0;
 }
-#port-img{
+#port-img2{
   padding-top:25px;
   padding-bottom: 25px;
-  float: left;
+  padding-right: 10px;
+  position: relative;
+  max-width: 50vw;
 }
 #skills{
   margin: 2px;
@@ -125,6 +127,7 @@ footer{
   bottom:0;
   opacity:.75;
   z-index: -1;
+  padding-bottom: 20px;
   /* For Static Background Image*/
     background: url("../laptop-4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -138,4 +141,8 @@ footer{
   font-size: 24;
   text-align: center;
   background:transparent;
+}
+#icons{
+  padding:0;
+  margin:0;
 }
