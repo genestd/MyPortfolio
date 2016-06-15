@@ -4,26 +4,21 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
+
+
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
 
-        <link rel="stylesheet" href="style.css">
-
-    
-    
-    
   </head>
 
   <body>
 
-    
-    <!-- Fixed navbar -->
+        <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -31,51 +26,107 @@
           </button>
           <a class="navbar-brand" href="#"><div class="logo1"><div class="logo">dg</div></div></a>
         </div>
-        <div id="navbar" class="navbar-collapse navbar-right collapse">
+        <div id="myNavbar" class="navbar-collapse navbar-right collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#about">Portfolio</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-offset-1 col-xs-10 jumbotron about">
-      <h1>TEST</h1>
-        <p>Lorem ipsum dolor sit amet, his ea eros timeam efficiantur, scribentur necessitatibus cu mel, in ius brute ullamcorper. Eum enim necessitatibus id, ne nam feugiat scribentur, an oportere disputando mei. Quo cu dicant dissentias, nec ex solum dignissim aliquando. Cu eius meliore cum, te ancillae rationibus has, audiam fierent pri ex. Meis elaboraret ne vix. Eos diceret salutandi constituto eu.
+    <header></header>
 
-Nullam causae intellegat id qui. Eos eu ipsum placerat, mei partem feugiat fabulas eu, cum an vero senserit vulputate. Ex quod omittam nam, mel ad elitr scaevola efficiantur. In sea possit probatus, vim deleniti insolens te.
+    <div class="container-fluid" id="frontpage">
+      <div class ="row" >
+        <div class="col-xs-12" id="about">
+        <h1>Custom site design</h1>
 
-Mea elit eirmod ad, id agam dicam probatus quo, quis probo discere nam ei. Ad per latine maluisset disputando, in sea nobis disputationi. Illud quodsi interpretaris no pro, ei eos quando intellegat elaboraret. Cu elitr oratio mentitum nam.
+        I am a web developer from Portland, OR specializing in local, small-batch, single-origin, fair-trade, shade-grown sites.
 
-Ei utroque inciderint duo, ne nisl prompta has. Ea qui quando phaedrum iudicabit, usu case bonorum imperdiet cu, saepe platonem necessitatibus ei est. Et mei legere nostrud, ex laboramus posidonium eos. Partiendo sententiae no mei.
+        </div>
+      </div>
+      <div class="row" id="buttons">
+        <div class="col-xs-offset-2 col-xs-4">
+          <a href="#contact"><button class="info">Contact <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></button></a>
+        </div>
+        <div class="col-xs-4" "col-xs-offset-2">
+          <button class="info">Resum&eacute; <i class="fa fa-chevron-right"></i><i class="fa fa-chevron-right"></i></button>
+       </div>
+     </div>
+   </div>
+   <div class="container-fluid" id="projects">
+     <div class="row">
+       <div class="col-xs-6">
+         <img src="tribute-preview.png" class="img-responsive" id="port-img"/>
+       </div>
+       <div class="col-xs-6">
+         <h2>Tribute Page</h2>
+         <p>My first web page project for <a href="www.freecodecamp.com" target="_blank">freecodecamp.com</a>.  Built with HTML5 and CSS3 on Codepen.io.</p>
+         <hr/>
+         <button class="btn btn-info" id="skills">HTML5 <i class="fa fa-html5"></i></button>
+         <button class="btn btn-info" id="skills">CSS3 <i class="fa fa-css3"></i></button>
+         <button class="btn btn-info" id="skills">Bootstrap</button>
+         <button class="btn btn-info" id="skills">Codepen <i class="fa fa-codepen"></i></button>
+         <button class="btn btn-info" id="skills">Github <i class="fa fa-github"></i></button>
+       </div>
+     </div>
+     <div class="divider"></div>
+     <div class="row">
+       <div class="col-xs-6">
+         <img src="http://placehold.it/558x632?text=Coming+Soon" class="img-responsive" id="port-img"/>
+       </div>
+       <div class="col-xs-6">
+         <h2>Random Quote Machine</h2>
+         <p>My first web page project for <a href="www.freecodecamp.com" target="_blank">freecodecamp.com</a>.  Built with HTML5 and CSS3 on Codepen.io.</p>
+         <hr/>
+         <button class="btn btn-info" id="skills">HTML5 <i class="fa fa-html5"></i></button>
+         <button class="btn btn-info" id="skills">CSS3 <i class="fa fa-css3"></i></button>
+         <button class="btn btn-info" id="skills">Bootstrap</button>
+         <button class="btn btn-info" id="skills">Codepen <i class="fa fa-codepen"></i></button>
+         <button class="btn btn-info" id="skills">Github <i class="fa fa-github"></i></button>
+       </div>
+     </div>
+     <div class="row">
+       <div class="divider"></div>
+       <div class="row">
+         <div class="col-xs-6">
+           <img src="http://placehold.it/558x632?text=Coming+Soon" class="img-responsive" id="port-img"/>
+         </div>
+         <div class="col-xs-6">
+           <h2>Local Weather App</h2>
+           <p>My first web page project for <a href="www.freecodecamp.com" target="_blank">freecodecamp.com</a>.  Built with HTML5 and CSS3 on Codepen.io.</p>
+           <hr/>
+           <button class="btn btn-info" id="skills">HTML5 <i class="fa fa-html5"></i></button>
+           <button class="btn btn-info" id="skills">CSS3 <i class="fa fa-css3"></i></button>
+           <button class="btn btn-info" id="skills">Bootstrap</button>
+           <button class="btn btn-info" id="skills">Codepen <i class="fa fa-codepen"></i></button>
+           <button class="btn btn-info" id="skills">Github <i class="fa fa-github"></i></button>
+         </div>
+     </div>
+   </div>
+ </div>
+ <footer>
+   <div class="container-fluid" id="contact">
+     <div class="row">
+       <div class="col-xs-offset-2 col-xs-8"><h1>Contact Me</h1></div>
+     </div>
+     <div class="row">
+       <div class="col-xs-12">
+           <span class="fa-stack fa-4x"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x"></i></span>
+           <span class="fa-stack fa-4x"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-github fa-stack-1x"></i></span>
+           <span class="fa-stack fa-4x"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-codepen fa-stack-1x"></i></span>
+           <span class="fa-stack fa-4x"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span>
+       </div>
+     </div>
+ </footer>
+ </div>
 
-Sed id delenit blandit detraxit. Nulla neglegentur ex pro. Duo movet admodum te. Ex soluta explicari sit, dolor graeci platonem at vis. Nam dolore ignota facilisis et, duo ferri posidonium dissentias id. His no option viderer scriptorem.</p>
-    </div>
-  </div>
-  <div class="row">  
-    <div class="col-xs-offset-1 col-xs-10 jumbotron portfolio"
-  <h1>Portfolio</h1>
-   <p>Lorem ipsum dolor sit amet, his ea eros timeam efficiantur, scribentur necessitatibus cu mel, in ius brute ullamcorper. Eum enim necessitatibus id, ne nam feugiat scribentur, an oportere disputando mei. Quo cu dicant dissentias, nec ex solum dignissim aliquando. Cu eius meliore cum, te ancillae rationibus has, audiam fierent pri ex. Meis elaboraret ne vix. Eos diceret salutandi constituto eu.
 
-Nullam causae intellegat id qui. Eos eu ipsum placerat, mei partem feugiat fabulas eu, cum an vero senserit vulputate. Ex quod omittam nam, mel ad elitr scaevola efficiantur. In sea possit probatus, vim deleniti insolens te.
-
-Mea elit eirmod ad, id agam dicam probatus quo, quis probo discere nam ei. Ad per latine maluisset disputando, in sea nobis disputationi. Illud quodsi interpretaris no pro, ei eos quando intellegat elaboraret. Cu elitr oratio mentitum nam.
-
-Ei utroque inciderint duo, ne nisl prompta has. Ea qui quando phaedrum iudicabit, usu case bonorum imperdiet cu, saepe platonem necessitatibus ei est. Et mei legere nostrud, ex laboramus posidonium eos. Partiendo sententiae no mei.
-
-Sed id delenit blandit detraxit. Nulla neglegentur ex pro. Duo movet admodum te. Ex soluta explicari sit, dolor graeci platonem at vis. Nam dolore ignota facilisis et, duo ferri posidonium dissentias id. His no option viderer scriptorem.</p>
-</div>
-</div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
 
-        <script src="js/index.js"></script>
 
-    
-    
-    
   </body>
 </html>

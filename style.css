@@ -1,32 +1,78 @@
-body{
+header{
   color:#ffffff;
-  background: #050505; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #050505, #222222); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #050505, #222222); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #050505, #222222); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom left, #c5c5c5, #aaaaaa) no-repeat; /* Standard syntax */
-  padding:110px;
-  /* For Static Background Image 
-    background: url("http://i.imgur.com/MoW79fC.jpg") no-repeat center center fixed; 
+  position: relative;
+  height: 100vh;
+  opacity: .75;
+  z-index: -1;
+  /* For Static Background Image*/
+    background: url("../laptop-4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
+}
+
+#frontpage{
+  position:absolute;
+  left: 0;
+  top: 33%;
+  color:white;
+  font-size: 18px;
+  text-align: center;
+  height:100vh;
+}
+#buttons{
+  padding-top: 20%;
+}
+#buttons button, #buttons a button{
+  background-color: #880c30;
+  color:#ffffff;
+  position: relative;
+  left:0;
+  font-size: 14px;
+  border:none;
+}
+
+#projects{
+  position: relative;
+  top:0;
+}
+
+h1{
+  color:white;
+  text-align: center;
 }
 .navbar{
   border-radius:0;
   border: none;
-  background-color: #004488;
   margin: 26px 0 0 0 ;
+  background: transparent;
 }
-#myNavbar{
+.navbar-nav{
   text-align: right;
   right:25px;
   position:absolute;
-  background-color: #004488;
 }
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #880C30;
+    -webkit-text-decoration-color: #880c30;
+    -moz-webkit-text-decoration-color: #880c30;
+}
+
+#page1{
+  position:relative;
+  left: 50%;
+  bottom:0;
+}
+
 .logo{
-  background-color: #002244;
+  background-color: #880C30;
   height:100%;
   width:100%;
   border:2px solid #000;
@@ -35,29 +81,59 @@ body{
   color:#ffffff;
   text-align: center;
   font: 48px Montserrat, sans-serif;
-  padding:11px;
+  padding:8px;
   position:absolute;
   left:0;
   top:50%;
-  margin-top: -47px;
+  margin-top: -42px;
 }
 .logo1{
   background-color: #ffffff;
-  width:110px;
-  height:110px;
+  width:100px;
+  height:100px;
   border:8px solid #000;
   border-radius:50%;
-  border-color: #002244;
+  border-color: #880C30;
   color:#ffffff;
   text-align: center;
   font: 48px Montserrat, sans-serif;
   padding:8px;
   position:absolute;
-  top:-25px;
+  top:-15px;
+  left: 10px;
   margin: 0;
 }
-.about{
-  color:#000000;
-  padding:0;
+#port-img{
+  padding:25px;
 }
-
+#skills{
+  margin: 2px;
+  background-color:#880C30;
+  border: none;
+}
+.divider {
+    margin: 15px;
+  	height: 10px;
+  	border: 0;
+  	box-shadow: 0 10px 10px -10px #555555 inset;
+}
+footer{
+  color:#ffffff;
+  position: relative;
+  bottom:0;
+  opacity:.75;
+  z-index: -1;
+  /* For Static Background Image*/
+    background: url("../laptop-4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#contact{
+  position: relative;
+  z-index:1;
+  font-size: 24;
+  text-align: center;
+  background:transparent;
+}
