@@ -5,7 +5,7 @@ header{
   opacity: .75;
   z-index: -1;
   /* For Static Background Image*/
-    background: url("../laptop-4.jpg") no-repeat center center fixed;
+    background: url("../laptop-4.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,7 +22,7 @@ header{
   height:100vh;
 }
 #buttons{
-  padding-top: 20%;
+  padding-top: 20px;
 }
 #buttons button, #buttons a button{
   background-color: #880c30;
@@ -104,7 +104,9 @@ h1{
   margin: 0;
 }
 #port-img{
-  padding:25px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  float: left;
 }
 #skills{
   margin: 2px;
