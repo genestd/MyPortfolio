@@ -149,7 +149,7 @@ footer{
   padding-bottom: 20px;
   padding-top: 30px;
   /* For Static Background Image*/
-    background: url("../laptop-4.jpg") no-repeat center center fixed;
+    background: url("../laptop-4.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
