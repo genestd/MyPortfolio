@@ -16,5 +16,6 @@ $("#myCarousel").carousel("pause");
          }
 
       });
-      /* BootLint for reporting bootstrap errors */
+      /* BootLint for reporting bootstrap errors 
       javascript:(function(){var s=document.createElement("script");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
+*/
