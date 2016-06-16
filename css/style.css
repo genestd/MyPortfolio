@@ -50,14 +50,21 @@ h1{
 }
 .navbar-nav{
   text-align: right;
+  border: none;
   right:25px;
   position:absolute;
+}
+.navbar-collapse{
+  background: transparent;
+  border: none;
 }
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
+    background-color: #a5a5a5;
+    border: none;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #880C30;
@@ -65,6 +72,13 @@ h1{
     -moz-webkit-text-decoration-color: #880c30;
 }
 
+.no-transition {
+  -webkit-transition: height 0.01s;
+  -moz-transition: height 0.01s;
+  -ms-transition: height 0.01s;
+  -o-transition: height 0.01s;
+  transition: height 0.01s;
+}
 #page1{
   position:relative;
   left: 50%;
@@ -105,7 +119,7 @@ h1{
 }
 #port-img2{
   padding-top:25px;
-  padding-bottom: 25px;
+
   padding-right: 10px;
   position: relative;
   max-width: 50vw;
@@ -116,10 +130,11 @@ h1{
   border: none;
 }
 .divider {
-    margin: 15px;
+    margin-top: 10px;
   	height: 10px;
   	border: 0;
   	box-shadow: 0 10px 10px -10px #555555 inset;
+
 }
 footer{
   color:#ffffff;
