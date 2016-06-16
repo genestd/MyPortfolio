@@ -60,18 +60,16 @@ h1{
   background: transparent;
   border: none;
 }
-/*
+
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #000000;
     background-color: #d5d5d5;
     border: none;
     font-weight: bold;
     text-decoration: underline;
-    text-decoration-color: #880C30;
-    -webkit-text-decoration-color: #880c30;
-    -moz-webkit-text-decoration-color: #880c30;
+
 }
 
 .no-transition {
@@ -81,7 +79,7 @@ h1{
   -o-transition: height 0.01s;
   transitionduration: height 0.01s;
 }
-*/
+
 #page1{
   position:relative;
   left: 50%;
@@ -161,7 +159,15 @@ footer{
   text-align: center;
   background:transparent;
 }
-#icons{
-  padding:0;
-  margin:0;
+#icons a i {
+    background: #205D7A;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 8px;
+    transition: all 0.2s ease-in-out;
 }
