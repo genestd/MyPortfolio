@@ -11,7 +11,9 @@ header{
     -o-background-size: cover;
     background-size: cover;
 }
-
+.hide{
+  background: transparent;
+}
 #frontpage{
   position:absolute;
   top: 33%;
@@ -22,7 +24,7 @@ header{
   width:100vw;
 }
 #buttons{
-  padding-top: 40%;
+  padding-top: 40px;
 }
 #buttons button, #buttons a button{
   background-color: #880c30;
@@ -58,12 +60,12 @@ h1{
   background: transparent;
   border: none;
 }
-
+/*
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
-    background-color: #a5a5a5;
+    background-color: #d5d5d5;
     border: none;
     font-weight: bold;
     text-decoration: underline;
@@ -77,8 +79,9 @@ h1{
   -moz-transition: height 0.01s;
   -ms-transition: height 0.01s;
   -o-transition: height 0.01s;
-  transition: height 0.01s;
+  transitionduration: height 0.01s;
 }
+*/
 #page1{
   position:relative;
   left: 50%;
@@ -144,6 +147,7 @@ footer{
   opacity:.75;
   z-index: -1;
   padding-bottom: 20px;
+  padding-top: 30px;
   /* For Static Background Image*/
     background: url("../laptop-4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -154,7 +158,6 @@ footer{
 #contact{
   position: relative;
   z-index:1;
-  font-size: 24;
   text-align: center;
   background:transparent;
 }
