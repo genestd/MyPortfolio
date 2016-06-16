@@ -138,30 +138,42 @@ h1{
   	box-shadow: 0 10px 10px -10px #555555 inset;
 
 }
-footer{
-  color:#ffffff;
+.wrapper{
+  margin: 0 auto;
   position: relative;
-  bottom:0;
-  opacity:.75;
-  z-index: -1;
-  padding-bottom: 20px;
-  padding-top: 30px;
-  /* For Static Background Image*/
-    background: url("../laptop-4.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  z-index: 1;
+
+}
+footer{
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ /* For Static Background Image*/
+   background: url("../laptop-4.jpg") no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+    opacity: .75;
+    z-index:-1;
 }
 #contact{
+  color:#ffffff;
+  width: 100%;
+  height: 100%;
   position: relative;
-  z-index:1;
+  z-index: 2;
   text-align: center;
-  background:transparent;
+  padding-top: 50px;
+  opacity:1;
+
 }
-#icons a i {
-    background: #205D7A;
-    color: #fff;
+#contact a i {
+    position: relative;
+    background: #880c30;
+    color:#ffffff;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -170,4 +182,5 @@ footer{
     margin-right: 10px;
     padding-top: 8px;
     transition: all 0.2s ease-in-out;
+    margin-bottom: 30px; 
 }
