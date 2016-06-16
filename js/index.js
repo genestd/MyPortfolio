@@ -12,7 +12,9 @@ $("#myCarousel").carousel("pause");
 
         } else {
            $("#brand").addClass('hide');
-          
+
          }
 
       });
+      /* BootLint for reporting bootstrap errors */
+      javascript:(function(){var s=document.createElement("script");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
