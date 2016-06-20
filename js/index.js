@@ -8,14 +8,16 @@ $("#myCarousel").carousel("pause");
       $("#myNavbar").on('activate.bs.scrollspy', function () {
          var currentSection = $(".nav li.active > a").text();
          if (currentSection == 'Home'){
-           $("#brand").removeClass("hide");
+           $("#brand").removeClass("fade");
+           $("#brand").addClass("fadein");
 
         } else {
-           $("#brand").addClass('hide');
+           $("#brand").addClass('fade');
+           $("#brand").removeClass("fadein");
 
          }
 
       });
-      /* BootLint for reporting bootstrap errors 
+      /* BootLint for reporting bootstrap errors
       javascript:(function(){var s=document.createElement("script");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";document.body.appendChild(s)})();
-*/
+      */
