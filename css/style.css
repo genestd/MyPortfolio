@@ -11,9 +11,19 @@ header{
     -o-background-size: cover;
     background-size: cover;
 }
-.hide{
-  background: transparent;
-}
+.fadein {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+.fade {
+   opacity: 0;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+
 #frontpage{
   position:absolute;
   top: 33%;
