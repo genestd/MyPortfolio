@@ -5,6 +5,9 @@ body{
   font-size: 20px;
 
 }
+page{
+  position:relative;
+}
 footer{
   position:absolute;
   bottom:0;
@@ -19,7 +22,6 @@ footer{
 .jumbotron{
   margin-top: 15%;
   min-height: 66%;
-  position: relative;
 }
 .well{
   border:none;
