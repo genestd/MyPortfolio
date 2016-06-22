@@ -6,7 +6,7 @@ body{
 
 }
 page{
-  position:absolute;
+  position:relative;
 }
 footer{
   position:absolute;
