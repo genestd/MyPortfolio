@@ -10,8 +10,8 @@ page{
 }
 footer{
   position:absolute;
-  bottom:0;
-  left: 0;
+  bottom:0px;
+  left: 0px;
   height:auto;
   width:100%;
   background-color:#000000;
