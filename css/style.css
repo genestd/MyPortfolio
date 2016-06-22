@@ -1,4 +1,5 @@
 body{
+  position: relative;
   background-color: #5cb85c;
   font-family: ubuntu, Verdana, Geneva, sans-serif;
   font-size: 20px;
