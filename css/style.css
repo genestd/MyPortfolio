@@ -1,8 +1,7 @@
 body{
-   background-color: #5cb85c;
+  background-color: #5cb85c;
   font-family: ubuntu, Verdana, Geneva, sans-serif;
   font-size: 20px;
-
 }
 page{
   position:relative;
@@ -19,8 +18,8 @@ footer{
 
 }
 .jumbotron{
+  position: relative;
   margin-top: 15%;
-  min-height: 66%;
 }
 .well{
   border:none;
