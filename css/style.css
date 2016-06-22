@@ -5,7 +5,7 @@ body{
 
 }
 footer{
-  position:absolute;
+  position:relative;
   bottom:0;
   left: 0;
   height:auto;
@@ -13,11 +13,11 @@ footer{
   background-color:#000000;
   text-align: center;
   color:#ffffff;
-}
-#top, #bottom{
-  height: 16%;
+
 }
 .jumbotron{
+  margin-top: 16%;
+  margin-bottom: 16%;
   height:auto;
   min-height: 66%;
   position: relative;
