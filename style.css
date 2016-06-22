@@ -1,0 +1,47 @@
+body{
+  background-color: #5cb85c;
+  font-family: ubuntu, Verdana, Geneva, sans-serif;
+  font-size: 20px;
+
+}
+footer{
+  position:relative;
+  bottom:0;
+  left: 0;
+  height:auto;
+  width:100%;
+  background-color:#000000;
+  text-align: center;
+  color:#ffffff;
+}
+#top, #bottom{
+  height: 16%;
+}
+.jumbotron{
+  height:auto;
+  min-height: 66%;
+  position: relative;
+}
+.well{
+  border:none;
+  border-radius: none;
+  box-shadow: none;
+  background-color:#eee;
+}
+#buttons{
+  text-align: center;
+  }
+.randomQuote{
+  position: relative;
+  top: 20px;
+}
+#faQuote{
+  padding:5px;
+}
+/*
+primary: #337ab7;
+success: #5cb85c;
+info: #5bc0de;
+warning: #f0ad4e;
+danger: #d9534f;
+*/
