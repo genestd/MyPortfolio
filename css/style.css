@@ -3,10 +3,7 @@ body{
   font-family: ubuntu, Verdana, Geneva, sans-serif;
   font-size: 20px;
 }
-page{
-  position:relative;
-}
-footer{
+/*.footer{
   position:absolute;
   bottom:0px;
   left: 0px;
@@ -16,7 +13,7 @@ footer{
   text-align: center;
   color:#ffffff;
 
-}
+}*/
 .jumbotron{
   position: relative;
   margin-top: 15%;
@@ -44,3 +41,21 @@ info: #5bc0de;
 warning: #f0ad4e;
 danger: #d9534f;
 */
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+background-color:#000000;
+text-align: center;
+color:#ffffff;
+}
