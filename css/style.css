@@ -26,8 +26,8 @@ body{
   color:#ffffff;
 }
 .jumbotron{
-  margin-top: 15%;
-  position: relative;
+  margin-top: 10%;
+  min-height: 66%;
 }
 .well{
   border:none;
